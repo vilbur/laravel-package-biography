@@ -1,0 +1,45 @@
+{
+    "name": "vilbur/biography",
+    "type": "library",
+    "description": "Biography for development of packages for Laravel",
+    "keywords": [
+        "vilbur",
+        "Biography"
+    ],
+    "homepage": "https://github.com/vilbur/laravel-package-biography",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": ":vilbur",
+            "email": "cerny.vil@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Vilbur\\Biography\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vilbur\\Biography\\": "tests/"
+        }
+    },
+    "extra": {
+		"laravel": {
+            "providers": [
+                "Vilbur\\Biography\\Providers\\BiographyServiceProvider"
+            ],
+            "aliases": {
+				"Biography":"Vilbur\\Biography\\Biography"
+			}
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

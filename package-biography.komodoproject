@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" kpf_version="5" name="package-biography.komodoproject">
+<folder id="7acbd179-88cf-4f67-a535-41cbc72b46b2" idref="2d309246-b7dc-452d-8649-e27a381655af" name="Assets">
+</folder>
+<livefolder id="5a11470a-2a90-42a7-9895-27a5223147a7" idref="3624417b-bee4-48ad-b9f9-cca2cd9e8ca9" name="sass" url="../../../resources/assets/sass/biography">
+</livefolder>
+<livefolder id="b7f35395-e69f-4aad-978b-c6be5b4bf36f" idref="3624417b-bee4-48ad-b9f9-cca2cd9e8ca9" name="js" url="../../../resources/assets/js/biography">
+</livefolder>
+<livefolder id="763dd8a0-63ae-4af6-b102-5d99a6318bb1" idref="7acbd179-88cf-4f67-a535-41cbc72b46b2" name="sass" url="../../../resources/assets/sass/">
+</livefolder>
+<livefolder id="e46371a6-3acb-452d-8a34-68b305c4f5c8" idref="7acbd179-88cf-4f67-a535-41cbc72b46b2" name="js" url="../../../resources/assets/js/">
+</livefolder>
+<folder id="2d309246-b7dc-452d-8649-e27a381655af" idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" name=" Laravel">
+</folder>
+<folder id="3624417b-bee4-48ad-b9f9-cca2cd9e8ca9" idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" name="App\Resources">
+</folder>
+<livefolder id="83421a58-3340-4751-ac3e-015f20314089" idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" name="src" url="src">
+</livefolder>
+<livefolder id="c6c617df-f6cc-408e-b357-4f1ddd9af432" idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" name="publish" url="publish">
+</livefolder>
+<livefolder id="07bdfb32-6eeb-46fd-ae02-ad0cf5f356d3" idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" name="tests" url="tests">
+</livefolder>
+<preference-set idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" id="project" preftype="project">
+  <long id="prefs_version">1</long>
+<preference-set id="testPlans">
+<preference-set id="pack-biography - test plan # 1">
+  <string id="command_line"></string>
+  <string relative="url" id="directory"></string>
+  <string id="language">PHP - PHPUnit</string>
+</preference-set>
+<preference-set id="pack-biography - test plan # 2">
+  <string id="command_line"></string>
+  <string relative="url" id="directory">tests</string>
+  <string id="language">PHP - PHPUnit</string>
+</preference-set>
+</preference-set>
+</preference-set>
+</project>
