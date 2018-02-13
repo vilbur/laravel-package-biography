@@ -1,37 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Komodo Project File - DO NOT EDIT -->
-<project id="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" kpf_version="5" name="package-biography.komodoproject">
-<folder id="7acbd179-88cf-4f67-a535-41cbc72b46b2" idref="2d309246-b7dc-452d-8649-e27a381655af" name="Assets">
+<project id="42033ea8-50ec-4797-96b7-10137d286eab" kpf_version="5" name="package-biography.komodoproject">
+<livefolder id="aa29eba8-6fb4-4f05-aa53-08256d6c233b" idref="02848c68-f686-43f3-8ba7-cccff55a6f3b" name="App" url="../../../">
+</livefolder>
+<folder id="afa53796-4c8a-404c-8490-9f9afac80d4e" idref="02848c68-f686-43f3-8ba7-cccff55a6f3b" name="Assets">
 </folder>
-<livefolder id="5a11470a-2a90-42a7-9895-27a5223147a7" idref="3624417b-bee4-48ad-b9f9-cca2cd9e8ca9" name="sass" url="../../../resources/assets/sass/biography">
+<livefolder id="089cc32e-6db5-4d1c-be3c-d99b149fd104" idref="3e2fa419-7c2d-46dd-85fb-794becf68ab2" name="js" url="publish/resources/assets/js/">
 </livefolder>
-<livefolder id="b7f35395-e69f-4aad-978b-c6be5b4bf36f" idref="3624417b-bee4-48ad-b9f9-cca2cd9e8ca9" name="js" url="../../../resources/assets/js/biography">
+<livefolder id="c145b3c6-a505-4c21-a596-bb6d4b9280ce" idref="3e2fa419-7c2d-46dd-85fb-794becf68ab2" name="sass" url="publish/resources/assets/sass/">
 </livefolder>
-<livefolder id="763dd8a0-63ae-4af6-b102-5d99a6318bb1" idref="7acbd179-88cf-4f67-a535-41cbc72b46b2" name="sass" url="../../../resources/assets/sass/">
+<livefolder id="4c5d0558-70b4-4ec1-b797-f1a9c969add1" idref="afa53796-4c8a-404c-8490-9f9afac80d4e" name="js" url="../../../resources/assets/js/">
 </livefolder>
-<livefolder id="e46371a6-3acb-452d-8a34-68b305c4f5c8" idref="7acbd179-88cf-4f67-a535-41cbc72b46b2" name="js" url="../../../resources/assets/js/">
+<livefolder id="59e20d94-7f4d-4e56-81b6-6a0161d27f34" idref="afa53796-4c8a-404c-8490-9f9afac80d4e" name="sass" url="../../../resources/assets/sass/">
 </livefolder>
-<folder id="2d309246-b7dc-452d-8649-e27a381655af" idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" name=" Laravel">
+<folder id="02848c68-f686-43f3-8ba7-cccff55a6f3b" idref="42033ea8-50ec-4797-96b7-10137d286eab" name=" LARAVEL">
 </folder>
-<folder id="3624417b-bee4-48ad-b9f9-cca2cd9e8ca9" idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" name="App\Resources">
+<folder id="3e2fa419-7c2d-46dd-85fb-794becf68ab2" idref="42033ea8-50ec-4797-96b7-10137d286eab" name="ASSETS">
 </folder>
-<livefolder id="83421a58-3340-4751-ac3e-015f20314089" idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" name="src" url="src">
+<livefolder id="48f4daa7-d8f8-4bfd-857f-61d7db3a206d" idref="42033ea8-50ec-4797-96b7-10137d286eab" name="src" url="src">
 </livefolder>
-<livefolder id="c6c617df-f6cc-408e-b357-4f1ddd9af432" idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" name="publish" url="publish">
+<livefolder id="7a147bb5-0dbd-43b4-be9c-80f7c51ed383" idref="42033ea8-50ec-4797-96b7-10137d286eab" name="publish" url="publish">
 </livefolder>
-<livefolder id="07bdfb32-6eeb-46fd-ae02-ad0cf5f356d3" idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" name="tests" url="tests">
+<livefolder id="9e4c302f-20d5-444f-aa46-6726020486a3" idref="42033ea8-50ec-4797-96b7-10137d286eab" name="tests" url="tests">
 </livefolder>
-<preference-set idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" id="project" preftype="project">
+<preference-set idref="42033ea8-50ec-4797-96b7-10137d286eab" id="project" preftype="project">
   <long id="prefs_version">1</long>
 <preference-set id="testPlans">
-<preference-set id="pack-biography - test plan # 1">
+<preference-set id="pack-portfolio - test plan # 1">
   <string id="command_line"></string>
-  <string relative="url" id="directory"></string>
+  <string id="directory">file:///C:/wamp64/www/portfolio/packages/vilbur/portfolio/</string>
   <string id="language">PHP - PHPUnit</string>
 </preference-set>
-<preference-set id="pack-biography - test plan # 2">
+<preference-set id="pack-portfolio - test plan # 2">
   <string id="command_line"></string>
-  <string relative="url" id="directory">tests</string>
+  <string id="directory">file:///C:/wamp64/www/portfolio/packages/vilbur/portfolio/tests</string>
   <string id="language">PHP - PHPUnit</string>
 </preference-set>
 </preference-set>
