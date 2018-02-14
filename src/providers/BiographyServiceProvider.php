@@ -39,7 +39,7 @@ class BiographyServiceProvider extends ServiceProvider
 			/* ASSETS SASS */
 			__DIR__.'/../../publish/resources/assets/sass'	=> resource_path("assets/sass/biography"), // DISABLED PUBLISHING ON PACKAGE DEVELOPMENT
 
-		], 'config');
+		], 'Biography');
 
     }
 
