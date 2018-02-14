@@ -14,14 +14,16 @@ class CreateBiographyTable extends Migration
     {
 		Schema::create('biography', function(Blueprint $table) {
 			$table->increments('id');
-			$table->string('slug')->nullable();
+
 			$table->string('client',\Config::get('migrations.lenght.summary'))->nullable();
 			$table->string('summary',\Config::get('migrations.lenght.summary'))->nullable();
 			$table->string('description',\Config::get('migrations.lenght.description'))->nullable();
 			$table->string('job_title',\Config::get('migrations.lenght.summary'))->nullable();
 			$table->string('image',	\Config::get('migrations.image'))->nullable();
+
 			$table->date('since')->nullable();
 			$table->date('until')->nullable();
+
 			$table->timestamps();
 		});
 
