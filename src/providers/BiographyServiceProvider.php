@@ -27,9 +27,6 @@ class BiographyServiceProvider extends ServiceProvider
 		/* PUBLISH */
 		$this->publishes([
 
-			/* CONFIG */
-			__DIR__.'/../../publish/config/Biography.php'	=> config_path('Biography.php'),
-
 			/* DATABASE */
 			__DIR__.'/../../publish/database'	=> $this->app->databasePath(),
 
