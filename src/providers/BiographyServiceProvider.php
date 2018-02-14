@@ -18,9 +18,6 @@ class BiographyServiceProvider extends ServiceProvider
 		/* VIEWS */
 		$this->loadViewsFrom(	__DIR__.'/../../publish/views', 'Biography');
 
-		/* CONFIG */
-		$this->mergeConfigFrom(	__DIR__.'/../../publish/config/Biography.php', 'Biography');
-
 		/* FACTORIES */
 	    $this->registerEloquentFactoriesFrom(__DIR__.'/../database/factories');
 
