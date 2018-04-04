@@ -1,7 +1,4 @@
 <?php
 
 Route::get('/biography', 'Vilbur\Biography\Controllers\BiographyController@testView');
-
-
-/* API */
-Route::get('/api/biography',	'Vilbur\Biography\Controllers\BiographyController@getAllBiography');
+Route::get('/db/biography',	'Vilbur\Biography\Controllers\BiographyController@getAllBiography');

@@ -1,37 +1,37 @@
-# Laravel package - biography  
-* optimized for Vue.js & Bulma  
+# Laravel package - biography    
+* optimized for Vue.js & Bulma    
 
-## Dependencies  
-[vue-router](https://github.com/vuejs/vue-router)  
+## Dependencies    
+[vue-router](https://github.com/vuejs/vue-router)    
 
-### Install  
-``` bash  
-composer require vilbur/biography @dev  
-```  
+### Install    
+``` bash    
+composer require vilbur/biography @dev    
+```    
 
-### Publish files  
-``` bash  
-php artisan vendor:publish --tag="vilbur/biography"  
-```  
+### Publish files    
+``` bash    
+php artisan vendor:publish --tag="vilbur/biography"    
+```    
 
-### app.js  
-``` javascript  
+### app.js    
+``` javascript    
 
-// import vilbur-biography view  
-const Biography	= () => import('./biography/views/biography.vue');  
+// import vilbur-biography view    
+const Biography	= () => import('./biography/views/biography.vue');    
 
-// routes for vue-router  
-const router = new VueRouter({  
-	routes:  
-	{  
-		path:	'/biography',  
-		name:	'biography',  
-		component:	Skills  
-	},  
-});  
-```  
+// routes for vue-router    
+const router = new VueRouter({    
+	routes:    
+	{    
+		path:	'/biography',    
+		name:	'biography',    
+		component:	Biography  
+	},    
+});    
+```    
 
-### app.scss  
-``` scss  
-@import 'biography/biography.scss';  
-```  
+### app.scss    
+``` scss    
+@import 'biography/biography.scss';    
+```    

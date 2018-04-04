@@ -1,26 +1,58 @@
 <template>
-	<div id="bio">
+	<div id="vilbur-biography">
 		<div v-for="(model, index) in models" class="hero"  >
-			<div class="hero-body">
-				<div class="columns">
-					<div class="column is-4 has-text-centered">
-						<img class="bio_logo" v-bind:src="model.image">
-					</div>
-					<div class="column">
-						<h3 class="title is-3 is-left">{{ model.client }}</h3>
-						<h4 class="subtitle is-4 is-left">{{ model.since_until }}</h4>
-						<h5 class="subtitle is-5 is-left">{{ model.job_title }}</h5>
-					</div>
+
+			<biography-header>
+					<span slot="logo">
+						<!--logo link-->
+						<a class="bio-logo-link" :href="model.link " target="_blank" v-if="model.link" ><img class="img-center-vcerticaly" :src="model.image"></a>
+						<!--only logo-->
+						<span v-else><img class="img-center-vcerticaly" :src="model.image"></span>
+					</span>
+
+					<a class="item-title" :href="model.link" target="_blank" v-if="model.link" >{{ model.client }}</a>
+					<span class="item-title" v-else>{{ model.client }}</span>
+			</biography-header>
+
+
+			<!--<div class="hero-body bio-details">-->
+				<!--<div class="container">-->
+			<div class="columns">
+				<div class="column has-text-centered
+							is-11-mobile is-offset-1-mobile has-text-left-mobile
+							is-3-tablet
+							is-2-desktop is-offset-1-desktop
+							is-offset-2-widescreen"
+				>
+					<span class="subtitle">{{ model.since_until }}</span>
 				</div>
 
+				<div class="column">
+					<biography-detail>
+						<span slot="title">Job title:</span>
+						{{ model.job_title }}
+					</biography-detail>
+					<biography-detail>
+						<span slot="title">Project:</span>
+						<span v-html="model.project"></span>
+					</biography-detail>
+				</div>
 			</div>
+
+				<!--</div>-->
+			<!--</div>-->
+
 		</div>
+
 	</div>
 </template>
 
 
+
 <script>
-	//import biographyDetail from '../components/biography-detail';
+
+	import biographyHeader from '../components/biography-header.vue'
+	import biographyDetail from '../components/biography-detail.vue'
 
 	export default {
 
@@ -30,7 +62,7 @@
 			};
 		},
 		created(){
-			axios.get('/api/biography').then( response => this.models = response.data );
+			axios.get('/db/biography').then( response => this.models = response.data );
 		},
 		mounted(){
 
@@ -39,7 +71,8 @@
 
 		},
 		components:{
-			//'biography-detail':biographyDetail,
+			'biography-header': biographyHeader,
+			'biography-detail': biographyDetail,
 		}
 	};
 </script>
