@@ -12,6 +12,6 @@ class BiographyController extends Controller {
 	*/
 	public function getAllBiography()
 	{
-		return Biography::all()->toArray();
+		return Biography::all()->sortByDesc('until')->values();
 	}
 }
