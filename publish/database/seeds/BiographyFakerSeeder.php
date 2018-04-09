@@ -3,7 +3,7 @@
 use Illuminate\Database\Seeder;
 use Vilbur\Biography\Models\Biography;
 
-class BiographySeeder extends Seeder
+class BiographyFakerSeeder extends Seeder
 {
     /**
      * Run the database seeds.

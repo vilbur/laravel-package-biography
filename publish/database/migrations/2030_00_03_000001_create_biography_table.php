@@ -15,7 +15,8 @@ class CreateBiographyTable extends Migration
 		Schema::create('biography', function(Blueprint $table) {
 			$table->increments('id');
 
-			$table->string('client',\Config::get('migrations.lenght.summary'))->nullable();
+			$table->string('project',\Config::get('migrations.lenght.description'))->nullable();
+			$table->string('client',\Config::get('migrations.lenght.summary'))->nullable();			
 			$table->string('summary',\Config::get('migrations.lenght.summary'))->nullable();
 			$table->string('description',\Config::get('migrations.lenght.description'))->nullable();
 			$table->string('job_title',\Config::get('migrations.lenght.summary'))->nullable();
